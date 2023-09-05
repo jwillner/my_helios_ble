@@ -692,7 +692,8 @@
  compatible = "twopounds,helios-nrf52840";
 
  chosen {
-  zephyr,console = &cdc_acm_uart1;
+
+  zephyr,console = &uart0;
   zephyr,sram = &sram0;
   zephyr,flash = &flash0;
   zephyr,code-partition = &slot0_partition;
@@ -733,6 +734,39 @@ zephyr_udc0: &usbd {
   storage_partition: partition@fa000 {
    label = "storage";
    reg = <0xfa000 0x6000>;
+  };
+ };
+};
+
+&uart0 {
+ compatible = "nordic,nrf-uarte";
+ status = "okay";
+ current-speed = <115200>;
+ pinctrl-0 = <&uart0_default>;
+ pinctrl-1 = <&uart0_sleep>;
+ pinctrl-names = "default", "sleep";
+};
+
+&pinctrl {
+ uart0_default: uart0_default {
+  group1 {
+   psels = <((((((0) * 32U) + (6)) & 0x7FU) << 0U) | ((0U & 0xFFFFU) << 16U))>,
+    <((((((0) * 32U) + (5)) & 0x7FU) << 0U) | ((2U & 0xFFFFU) << 16U))>;
+  };
+  group2 {
+   psels = <((((((0) * 32U) + (8)) & 0x7FU) << 0U) | ((1U & 0xFFFFU) << 16U))>,
+    <((((((0) * 32U) + (7)) & 0x7FU) << 0U) | ((3U & 0xFFFFU) << 16U))>;
+   bias-pull-up;
+  };
+ };
+
+ uart0_sleep: uart0_sleep {
+  group1 {
+   psels = <((((((0) * 32U) + (6)) & 0x7FU) << 0U) | ((0U & 0xFFFFU) << 16U))>,
+    <((((((0) * 32U) + (8)) & 0x7FU) << 0U) | ((1U & 0xFFFFU) << 16U))>,
+    <((((((0) * 32U) + (5)) & 0x7FU) << 0U) | ((2U & 0xFFFFU) << 16U))>,
+    <((((((0) * 32U) + (7)) & 0x7FU) << 0U) | ((3U & 0xFFFFU) << 16U))>;
+   low-power-enable;
   };
  };
 };

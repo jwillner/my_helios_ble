@@ -21,3 +21,4 @@ void main(void)
 		serial_sendf(K_FOREVER, "hallo welt\n");
 	}
 }
+
