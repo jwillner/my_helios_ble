@@ -699,16 +699,7 @@
   zephyr,code-partition = &slot0_partition;
  };
 };
-
-zephyr_udc0: &usbd {
- compatible = "nordic,nrf-usbd";
- status = "okay";
- cdc_acm_uart1: cdc_acm_uart1 {
-  compatible = "zephyr,cdc-acm-uart";
- };
-};
-
-
+# 29 "/Users/jw/Helios-Firmware/my_helios_ble/boards/arm/helios_nrf52840/helios_nrf52840.dts"
 &flash0 {
  partitions {
   compatible = "fixed-partitions";

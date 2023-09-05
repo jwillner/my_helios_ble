@@ -94,11 +94,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/drivers/hwinfo/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("/Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/drivers/pinctrl/cmake_install.cmake")
 endif()
 

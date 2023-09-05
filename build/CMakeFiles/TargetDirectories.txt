@@ -128,10 +128,6 @@
 /Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/subsys/tracing/CMakeFiles/edit_cache.dir
 /Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/subsys/usb/CMakeFiles/rebuild_cache.dir
 /Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/subsys/usb/CMakeFiles/edit_cache.dir
-/Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/subsys/usb/device/CMakeFiles/rebuild_cache.dir
-/Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/subsys/usb/device/CMakeFiles/edit_cache.dir
-/Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/subsys/usb/device/class/CMakeFiles/rebuild_cache.dir
-/Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/subsys/usb/device/class/CMakeFiles/edit_cache.dir
 /Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/subsys/bluetooth/CMakeFiles/rebuild_cache.dir
 /Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/subsys/bluetooth/CMakeFiles/edit_cache.dir
 /Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/subsys/bluetooth/common/CMakeFiles/rebuild_cache.dir
@@ -164,9 +160,6 @@
 /Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/drivers/pcie/CMakeFiles/edit_cache.dir
 /Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/drivers/usb/CMakeFiles/rebuild_cache.dir
 /Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/drivers/usb/CMakeFiles/edit_cache.dir
-/Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/drivers/usb/device/CMakeFiles/rebuild_cache.dir
-/Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/drivers/usb/device/CMakeFiles/edit_cache.dir
-/Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/drivers/usb/device/CMakeFiles/drivers__usb__device.dir
 /Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/drivers/usb_c/CMakeFiles/rebuild_cache.dir
 /Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/drivers/usb_c/CMakeFiles/edit_cache.dir
 /Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/drivers/adc/CMakeFiles/rebuild_cache.dir
@@ -184,9 +177,6 @@
 /Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/drivers/gpio/CMakeFiles/rebuild_cache.dir
 /Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/drivers/gpio/CMakeFiles/edit_cache.dir
 /Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir
-/Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/drivers/hwinfo/CMakeFiles/rebuild_cache.dir
-/Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/drivers/hwinfo/CMakeFiles/edit_cache.dir
-/Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/drivers/hwinfo/CMakeFiles/drivers__hwinfo.dir
 /Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/drivers/pinctrl/CMakeFiles/rebuild_cache.dir
 /Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/drivers/pinctrl/CMakeFiles/edit_cache.dir
 /Users/jw/Helios-Firmware/my_helios_ble/build/zephyr/drivers/pinctrl/CMakeFiles/drivers__pinctrl.dir

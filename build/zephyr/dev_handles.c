@@ -19,14 +19,9 @@ __devicehdl_dts_ord_3[] = { DEVICE_HANDLE_SEP, DEVICE_HANDLE_SEP, DEVICE_HANDLE_
 /* 4 : /soc/crypto@5002a000:
  */
 const Z_DECL_ALIGN(device_handle_t) __attribute__((__section__(".__device_handles_pass2")))
-__devicehdl_dts_ord_65[] = { DEVICE_HANDLE_SEP, DEVICE_HANDLE_SEP, DEVICE_HANDLE_ENDS };
+__devicehdl_dts_ord_66[] = { DEVICE_HANDLE_SEP, DEVICE_HANDLE_SEP, DEVICE_HANDLE_ENDS };
 
-/* 5 : /soc/usbd@40027000/cdc_acm_uart1:
- */
-const Z_DECL_ALIGN(device_handle_t) __attribute__((__section__(".__device_handles_pass2")))
-__devicehdl_dts_ord_81[] = { DEVICE_HANDLE_SEP, DEVICE_HANDLE_SEP, DEVICE_HANDLE_ENDS };
-
-/* 6 : /soc/uart@40002000:
+/* 5 : /soc/uart@40002000:
  */
 const Z_DECL_ALIGN(device_handle_t) __attribute__((__section__(".__device_handles_pass2")))
 __devicehdl_dts_ord_61[] = { DEVICE_HANDLE_SEP, DEVICE_HANDLE_SEP, DEVICE_HANDLE_ENDS };

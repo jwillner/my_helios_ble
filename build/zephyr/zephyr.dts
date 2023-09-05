@@ -405,7 +405,7 @@
 			interrupts = < 0x25 0x1 >;
 			status = "disabled";
 		};
-		usbd: zephyr_udc0: usbd@40027000 {
+		usbd: usbd@40027000 {
 			compatible = "nordic,nrf-usbd";
 			reg = < 0x40027000 0x1000 >;
 			interrupts = < 0x27 0x1 >;
@@ -414,10 +414,7 @@
 			num-out-endpoints = < 0x7 >;
 			num-isoin-endpoints = < 0x1 >;
 			num-isoout-endpoints = < 0x1 >;
-			status = "okay";
-			cdc_acm_uart1: cdc_acm_uart1 {
-				compatible = "zephyr,cdc-acm-uart";
-			};
+			status = "disabled";
 		};
 		uart1: uart@40028000 {
 			compatible = "nordic,nrf-uarte";
